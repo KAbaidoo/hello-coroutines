@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="111f56b1-1986-49fe-a83b-c7ef38b82c7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinCoroutines.kt" afterDir="false" />
+    <list default="true" id="111f56b1-1986-49fe-a83b-c7ef38b82c7b" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Builders.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Cancellation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ScopeContextDispatchers.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/SimpleTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/SuspendingFunc.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinCoroutines.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinCoroutines.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -52,20 +48,73 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Kobby/IdeaProjects"
+    "last_opened_file_path": "C:/Users/Kobby/IdeaProjects/learning-kotlin"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="KotlinCoroutinesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KotlinCoroutinesKt" />
+  <component name="RunManager" selected="Kotlin.ScopeContextDispatchersKt">
+    <configuration name="SimpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-coroutines.main" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="hello-coroutines" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BuildersKt" />
+      <module name="hello-coroutines.main" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CancellationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CancellationKt" />
       <module name="hello-coroutines.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ScopeContextDispatchersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ScopeContextDispatchersKt" />
+      <module name="hello-coroutines.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuspendingFuncKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SuspendingFuncKt" />
+      <module name="hello-coroutines.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Unnamed" />
+      <item itemvalue="JUnit.SimpleTest" />
+      <item itemvalue="Kotlin.CancellationKt" />
+      <item itemvalue="Kotlin.ScopeContextDispatchersKt" />
+      <item itemvalue="Kotlin.SuspendingFuncKt" />
+      <item itemvalue="Kotlin.BuildersKt" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.KotlinCoroutinesKt" />
+        <item itemvalue="Kotlin.ScopeContextDispatchersKt" />
+        <item itemvalue="Kotlin.SuspendingFuncKt" />
+        <item itemvalue="Kotlin.CancellationKt" />
+        <item itemvalue="JUnit.SimpleTest" />
+        <item itemvalue="Kotlin.BuildersKt" />
       </list>
     </recent_temporary>
   </component>
@@ -78,6 +127,14 @@
       <option name="presentableId" value="Default" />
       <updated>1659196019597</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1659282032398</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659282032398</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,5 +147,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
